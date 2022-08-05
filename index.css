@@ -1,0 +1,42 @@
+#container {
+    border: #000000 2px solid;
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+#container > div {
+    height: 20vh;
+    width: 25vw;
+    border: black 2px solid;
+
+
+}
+
+#one {
+    background-color: blue;
+}
+
+#two {
+    background-color: yellow;
+}
+
+#three {
+    background-color: pink;
+}
+
+#four {
+    background-color: black;
+}
+
+#five {
+    background-color: green;
+}
+
+#six {
+    background-color: purple;
+}
